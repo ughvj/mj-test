@@ -1,0 +1,21 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-modules --es-module-specifier-resolution=node src/index.js",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "type": "module",
+  "dependencies": {
+    "core-js": "^3.6.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "eslint": "^7.4.0",
+    "typescript": "~3.9.7"
+  }
+}
